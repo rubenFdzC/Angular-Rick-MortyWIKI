@@ -1,0 +1,37 @@
+.GalleryBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Gallery{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+.tittle{
+    padding: 1px;
+    background-color: burlywood;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.name{
+    background-color: burlywood;
+}
+.boxshadow{
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.card-img{
+    width: 200px;
+    height: 250px;
+}

@@ -1,0 +1,12 @@
+<!-- donde meto esto para que imprima los planetas pero en otra ruta? -->
+<!-- <app-game [memo]="planetsNormal"></app-game> -->
+<p>GAME WORKS</p>
+
+<div class="c-memo">
+<div *ngFor="let card of memo">
+    {{card.img}}
+    <img class="planeting" src="{{card.img}}" alt=""> 
+    <img *ngIf="card.checked" src="assets/ticks.svg" alt=""/>
+    <!-- <img *ngIf="!card.selected && !card.checked" (click)="checkCard" src="" alt=""> -->
+</div>
+</div>
